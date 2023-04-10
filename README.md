@@ -12,26 +12,20 @@ $0.002 / 1K tokens.<br>
 
 HOW TO START ?<br>
 Just put your API-KEY in the config.yml and start the server.<br>
-All messages that beginns with chatgpt is a question.
-Only users with ```pmgpt.use``` permission can receive a reply
-
-
-EXAMPLE:<br>
-chatgpt Say this is a test<br>
-Question: Say this is a test<br>
-Answer: This is a test<br>
+Only users with ```pmgpt.use``` permission can run the command ```chatgpt```<br>
 
 
 PREVIEW:<br>
-chatgpt tell me good names for factions.<br>
-![EXAMPLE](https://user-images.githubusercontent.com/79281788/229948384-927f6786-4f90-4869-8e6c-7a7b570a960e.png)<br>
+Question: tell me good names for factions.<br>
+![descriptionUI](https://user-images.githubusercontent.com/79281788/231010759-e0425c13-3ddf-4c12-852e-c556e5a8bd20.png)<br>
+
 
 ### TODO-List
 - [x] Add gpt-3.5-turbo model instead of text-davinci-002
 - [x] Add remembering previous questions
 - [x] Run response action on async task to prevent freeze on waiting for response
 - [ ] Inform user when ChatGPT is at capacity
-- [ ] Work with UI instead of Chat 
+- [x] Work with UI instead of Chat 
 - [x] Send a please wait message if the response takes a little longer
 
 
